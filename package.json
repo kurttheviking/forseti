@@ -1,0 +1,46 @@
+{
+  "name": "forseti",
+  "version": "0.0.0",
+  "description": "General approach for federated API-based data gathering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurttheviking/forseti.git"
+  },
+  "author": {
+    "name": "Kurt Ericson",
+    "email": "github@kurttheviking.com",
+    "url": "http://github.com/kurttheviking"
+  },
+  "contributors": [
+    {
+      "name": "Kurt Ericson",
+      "email": "github@kurttheviking.com",
+      "url": "https://github.com/kurttheviking"
+    }
+  ],
+  "dependencies": {
+    "@aws-sdk/client-sqs": "3.622.0",
+    "debug": "4.3.6",
+    "sqs-producer": "5.0.0",
+    "uuid-with-v6": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "5.1.1",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-import": "2.29.1",
+    "istanbul": "0.4.5",
+    "mocha": "10.7.0",
+    "mocha-eslint": "7.0.0",
+    "sinon": "18.0.0"
+  },
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/kurttheviking/forseti/issues"
+  },
+  "homepage": "https://github.com/kurttheviking/forseti#readme"
+}
