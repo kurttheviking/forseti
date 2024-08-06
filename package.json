@@ -25,8 +25,11 @@
   "dependencies": {
     "@aws-sdk/client-sqs": "3.622.0",
     "debug": "4.3.6",
+    "habrok": "4.1.2",
+    "has": "1.0.4",
+    "sqs-consumer": "11.0.1",
     "sqs-producer": "5.0.0",
-    "uuid-with-v6": "^2.0.0"
+    "uuid-with-v6": "2.0.0"
   },
   "devDependencies": {
     "chai": "5.1.1",
